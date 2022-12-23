@@ -7,6 +7,16 @@ body{
 .swiper{
     --swiper-theme-color: #ffffff;
     --swiper-pagination-color: #ffffff;/* 两种都可以 */
+    margin: 20px 5%;
+    background-color:#293050;
+    border-radius:7px;
+    width: 90%;
+    height: 180px;
+}
+
+.swiper-slide-box{
+    height:180px;
+    position: relative;
 }
 a {
     text-decoration: none;
@@ -26,4 +36,100 @@ a:active {
 }
 a:focus {
     text-decoration: none;
+}
+.international{
+    width:80%;
+    display:flex;
+    justify-content: flex-end;
+    margin:0px 5% 0 15%;
+    padding:10px 0 0;
+    font-size:13px;
+}
+.international-middle{
+    margin: 0 10px;
+}
+.international-select{
+    color:#aaaaaa;
+}
+
+.block-title{
+    display: flex;
+    height: 30px;
+    line-height: 30px;
+}
+
+.block-title-left{
+    width: 3px;
+    height: 20px; 
+    background-color: #fff;
+    margin: 5px 0 ;
+    border-radius: 1px;
+    border-left: 2px solid #55aaff;
+}
+
+.block-title-right{
+    font-weight:700;
+    font-size:20px;
+    margin-left: 10px;
+}
+
+.introduce{
+    margin-top:10px;
+}
+.introduce div{
+    margin-top:10px;
+}
+
+H2{
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight:500;
+}
+
+.contact{
+    margin:20px 5%;
+    background-color:#293050;
+    padding:20px 5%; 
+    border-radius:7px;
+    width: 80%;
+}
+
+.contact-box{
+    display: flex;
+    margin-top: 20px;
+    width:100%;
+    flex-flow:row wrap;
+}
+
+.contact-element{
+    height: 30px;
+    line-height: 30px;
+    margin:0 5px;
+    width:45%;
+    white-space:nowrap;
+}
+
+.contact-element-span{
+    color: #efefef;
+}
+
+.swiper-img{
+    width: 100%;
+    height: 180px;
+    border-radius: 3px;
+}
+
+.swiper-text{
+    color: #fff; 
+    position: absolute;
+    background-color: rgba(41, 48, 80, 1);
+    bottom: 0;width: 90%;
+    padding: 10px 5%;
+}
+
+.about{
+    margin:10px 0 20px;
+    font-size:12px;
+    text-align:center;
+    font-weight:500;
 }
